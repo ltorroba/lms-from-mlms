@@ -1,0 +1,28 @@
+name: compatibility-evaluation
+channels:
+  - pytorch
+dependencies:
+  - pytorch=1.11.0
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.3
+  - flake8
+  - plotly
+  - networkx
+  - pip:
+    - dill==0.3.4
+    - datasets==2.2.1
+    - transformers==4.19.2
+    - blingfire
+    - Levenshtein
+    - wandb
+    - evaluate
+    - sklearn
+    - more_itertools
+    - einops
+    - pytorch_lightning
+    - sentence_transformers
+    - nltk
+    - jiwer
+    - spacy
+    - mauve-text
